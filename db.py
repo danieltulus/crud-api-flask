@@ -113,3 +113,4 @@ def deleteAll():
     cur.execute("DELETE FROM books")
     conn.commit()
     conn.close()
+    

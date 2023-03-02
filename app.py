@@ -148,6 +148,7 @@ def putRequest():
                 'res': f'Error ⛔❌! Failed to update Book with title: {title}!',
                 'status': '404'
             })
+
     
     
 
@@ -173,6 +174,7 @@ def deleteRequest(id):
         return jsonify({
             'error': f"Error ⛔❌! No Book ID sent!",
             'res': '',
+            'query': 'status deletion'
             'status': '404'
         })
 
